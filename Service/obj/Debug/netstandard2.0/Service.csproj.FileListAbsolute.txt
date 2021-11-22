@@ -1,0 +1,9 @@
+C:\Users\BS483\source\repos\WebScrapingSite\Service\bin\Debug\netstandard2.0\Service.deps.json
+C:\Users\BS483\source\repos\WebScrapingSite\Service\bin\Debug\netstandard2.0\Service.dll
+C:\Users\BS483\source\repos\WebScrapingSite\Service\bin\Debug\netstandard2.0\Service.pdb
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.csprojAssemblyReference.cache
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.AssemblyInfoInputs.cache
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.AssemblyInfo.cs
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.dll
+C:\Users\BS483\source\repos\WebScrapingSite\Service\obj\Debug\netstandard2.0\Service.pdb
