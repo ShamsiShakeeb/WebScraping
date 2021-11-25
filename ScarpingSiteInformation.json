@@ -1,0 +1,80 @@
+[
+  {
+    "id": 0,
+    "siteTitle": "Fly Novo Air",
+    "loginLink": "https://secure.flynovoair.com/agents/default.asp",
+    "navigationLink": "https://secure.flynovoair.com/agents/res-history.asp",
+    "uniqueTitle": "Fly Novo Air",
+    "queryCssSelector": "#wrapper table",
+
+    "loginInfo": [
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "login",
+        "value": "vqssintl"
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "password",
+        "value": "dec2021"
+      },
+      {
+        "htmlTag": "button",
+        "getElementBy": "id",
+        "key": "defaultActionButton",
+        "value": ""
+      }
+    ],
+    "elements": [
+      {
+        "htmlTag": "select",
+        "getElementBy": "name",
+        "key": "date_range",
+        "value": "Date Range"
+      },
+      {
+        "htmlTag": "checkBox",
+        "getElementBy": "name",
+        "key": "chk_display_details",
+        "value": ""
+      },
+      {
+        "htmlTag": "checkBox",
+        "getElementBy": "name",
+        "key": "chk_display_tax_fee_details",
+        "value": ""
+      },
+      {
+        "htmlTag": "input",
+        "getElementBy": "name",
+        "key": "page_size",
+        "value": "100"
+      }
+
+    ],
+    "actionButtonElements": [
+      {
+        "htmlTag": "button",
+        "getElementBy": "name",
+        "key": "Submit",
+        "value": ""
+      }
+    ],
+    "customProperties": [
+      {
+        "htmlTag": "datepicker",
+        "getElementBy": "name",
+        "key": "date_from",
+        "value": ""
+      },
+      {
+        "htmlTag": "datepicker",
+        "getElementBy": "name",
+        "key": "date_to",
+        "value": ""
+      }
+    ]
+  }
+]

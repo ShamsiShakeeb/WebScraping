@@ -113,13 +113,7 @@ C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\Service.dll
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\WebScrapingDesktopApplications.exe
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\WebDriver.dll
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\WebDriver.Support.dll
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\WebScrapingDesktopApplications.exe.config
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.xml
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.csprojAssemblyReference.cache
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.AssemblyInfoInputs.cache
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.AssemblyInfo.cs
@@ -148,4 +142,3 @@ C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.dll
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.pdb
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\obj\Debug\netcoreapp3.1\WebScrapingSite.genruntimeconfig.cache
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\bin\Debug\netcoreapp3.1\WebScrapingDesktopApplications.pdb

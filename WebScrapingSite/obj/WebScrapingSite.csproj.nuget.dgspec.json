@@ -72,16 +72,6 @@
         }
       }
     },
-    "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj",
-        "projectName": "WebScrapingDesktopApplications",
-        "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj"
-      },
-      "frameworks": {
-        "net45": {}
-      }
-    },
     "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingSite\\WebScrapingSite.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -111,9 +101,6 @@
             "projectReferences": {
               "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj": {
                 "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj"
-              },
-              "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj": {
-                "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj"
               }
             }
           }
@@ -131,6 +118,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

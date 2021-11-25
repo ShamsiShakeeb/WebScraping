@@ -18,8 +18,9 @@ C:\Users\BS483\source\repos\WebScrapingDesktopApplications\WebScrapingDesktopApp
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.exe.config
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.exe
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.pdb
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.exe
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.exe.config
+C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.exe
+C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.pdb
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.csprojAssemblyReference.cache
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.Form1.resources
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.Properties.Resources.resources
@@ -28,4 +29,3 @@ C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebSc
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.csproj.CopyComplete
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.exe
 C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingDesktopApplications\WebScrapingDesktopApplications\obj\Debug\WebScrapingDesktopApplications.pdb
-C:\Users\BS483\source\repos\WebScrapingSite\WebScrapingSite\wwwroot\SeleniumWebScrapApp\WebScrapingDesktopApplications.pdb

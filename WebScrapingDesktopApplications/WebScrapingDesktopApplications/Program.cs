@@ -14,9 +14,12 @@ namespace WebScrapingDesktopApplications
         [STAThread]
         static void Main(string[] args)
         {
-            RequestArguments.StartDate = args[0];
-            RequestArguments.EndDate = args[1];
-            
+            if (args.Length != 0)
+            {
+                RequestArguments.UniqueSiteTitle = args[0];
+                RequestArguments.JsonString = args[1];
+            }
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

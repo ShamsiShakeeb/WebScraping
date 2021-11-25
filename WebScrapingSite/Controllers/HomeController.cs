@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Service;
@@ -10,7 +11,6 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using TowerSoft.HtmlToExcel;
-using WebScrapingDesktopApplications;
 using WebScrapingSite.Factories;
 using WebScrapingSite.Models;
 using WebScrapingSite.ViewModel;
@@ -52,12 +52,10 @@ namespace WebScrapingSite.Controllers
         }
 
         [HttpPost]
-        public IActionResult WebScraping(ScarpingFilterViewModel scarpingFilterViewModel, string submitBtn)
+        public IActionResult WebScraping(ScarpingFilterViewModel scarpingFilterViewModel, IFormCollection form, string submitBtn)
         {
-
             if (submitBtn.Equals("Zenith Load as Excel"))
             {
-
                 var result = _webScrapingModelFactory.ScrapZenithSiteDataAsExcel(scarpingFilterViewModel.StartDate,
                     scarpingFilterViewModel.EndDate);
 
@@ -66,10 +64,8 @@ namespace WebScrapingSite.Controllers
                     return File(result.excelData, MimeType.xlsx, "report.xlsx");
                 }
             }
-            else if(submitBtn.Equals("WebScrap Fly Novo Air"))
-            {
-                _webScrapingModelFactory.ScrapFlyNovoAirSite(scarpingFilterViewModel.StartDate, scarpingFilterViewModel.EndDate);
-            }
+             //Selenium WebScraping
+            _webScrapingModelFactory.WebScrap(PrepareCustomPropertyFromIFormCollections(form), submitBtn);
 
             return RedirectToAction("WebScraping");
         }
@@ -79,6 +75,30 @@ namespace WebScrapingSite.Controllers
         {
             ScarpingFilterViewModel.HtmlTableResponse = seleniumWebScrapResponseModel.HtmlTable;
             return Ok();
+        }
+
+        private List<string> PrepareCustomPropertyFromIFormCollections(IFormCollection form)
+        {
+            List<string> customProperties = new List<string>();
+            int i = 0;
+            foreach (var data in form)
+            {
+
+                if (!data.Key.Equals("__RequestVerificationToken") && !data.Key.Equals("submitBtn"))
+                {
+                    if (i == 0 || i == 1)
+                    {
+                        customProperties.Add(Convert.ToDateTime(data.Value).ToString("dd-MMM-yyyy"));
+                    }
+                    else
+                    {
+                        customProperties.Add(data.Value);
+                    }
+
+                }
+                i++;
+            }
+            return customProperties;
         }
     }
 }
