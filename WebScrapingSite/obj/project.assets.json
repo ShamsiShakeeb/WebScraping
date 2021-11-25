@@ -2138,6 +2138,15 @@
         "runtime": {
           "bin/placeholder/Service.dll": {}
         }
+      },
+      "WebScrapingDesktopApplications/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WebScrapingDesktopApplications.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebScrapingDesktopApplications.dll": {}
+        }
       }
     }
   },
@@ -6920,12 +6929,18 @@
       "type": "project",
       "path": "../Service/Service.csproj",
       "msbuildProject": "../Service/Service.csproj"
+    },
+    "WebScrapingDesktopApplications/1.0.0": {
+      "type": "project",
+      "path": "../WebScrapingDesktopApplications/WebScrapingDesktopApplications/WebScrapingDesktopApplications.csproj",
+      "msbuildProject": "../WebScrapingDesktopApplications/WebScrapingDesktopApplications/WebScrapingDesktopApplications.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
-      "Service >= 1.0.0"
+      "Service >= 1.0.0",
+      "WebScrapingDesktopApplications >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6961,6 +6976,9 @@
           "projectReferences": {
             "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj": {
               "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj"
+            },
+            "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj": {
+              "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj"
             }
           }
         }

@@ -72,6 +72,16 @@
         }
       }
     },
+    "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj",
+        "projectName": "WebScrapingDesktopApplications",
+        "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    },
     "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingSite\\WebScrapingSite.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -101,6 +111,9 @@
             "projectReferences": {
               "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj": {
                 "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\Service\\Service.csproj"
+              },
+              "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj": {
+                "projectPath": "C:\\Users\\BS483\\source\\repos\\WebScrapingSite\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications\\WebScrapingDesktopApplications.csproj"
               }
             }
           }

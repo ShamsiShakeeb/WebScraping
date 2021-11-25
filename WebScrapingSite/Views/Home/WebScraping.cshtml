@@ -35,4 +35,21 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
-<div id="webScrap">@Html.Raw(Model.HtmlTable)</div>
+@if (!string.IsNullOrEmpty(Model.HtmlTable))
+{
+    <button onclick="ExcelDownload()"> Download Excel </button>
+}
+
+<div id="webScrap">
+    @Html.Raw(Model.HtmlTable)
+</div>
+
+<script>
+
+    function ExcelDownload() {
+        var html = document.querySelectorAll("#webScrap")[0].outerHTML;
+        window.open('data:application/vnd.ms-excel,' + encodeURIComponent(html));
+    }
+
+</script>
+

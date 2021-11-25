@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\WebScrapingDesktopApplications\WebScrapingDesktopApplications\WebScrapingDesktopApplications.csproj" />
   </ItemGroup>
 
 </Project>

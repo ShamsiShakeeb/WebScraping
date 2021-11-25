@@ -8,5 +8,6 @@ namespace WebScrapingSite.Factories
     public interface IWebScrapingModelFactory
     {
         (byte[] excelData, bool isSuccess, string error) ScrapZenithSiteDataAsExcel(DateTime StartDate, DateTime EndDate);
+        void ScrapFlyNovoAirSite(DateTime StartDate, DateTime EndDate);
     }
 }

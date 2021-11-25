@@ -10,9 +10,11 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using TowerSoft.HtmlToExcel;
+using WebScrapingDesktopApplications;
 using WebScrapingSite.Factories;
 using WebScrapingSite.Models;
 using WebScrapingSite.ViewModel;
+
 
 namespace WebScrapingSite.Controllers
 {
@@ -20,13 +22,10 @@ namespace WebScrapingSite.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IWebScrapingModelFactory _webScrapingModelFactory;
-        private readonly IWebHostEnvironment _hostingEnvironment;
-        public HomeController(ILogger<HomeController> logger, IWebScrapingModelFactory webScrapingModelFactory,
-            IWebHostEnvironment hostingEnvironment)
+        public HomeController(ILogger<HomeController> logger, IWebScrapingModelFactory webScrapingModelFactory)
         {
             _logger = logger;
             _webScrapingModelFactory = webScrapingModelFactory;
-            _hostingEnvironment = hostingEnvironment;
         }
 
         public IActionResult Index()
@@ -69,12 +68,7 @@ namespace WebScrapingSite.Controllers
             }
             else if(submitBtn.Equals("WebScrap Fly Novo Air"))
             {
-                Process p = new Process();
-                string webRootPath = _hostingEnvironment.WebRootPath;
-                var path = webRootPath+"/SeleniumWebScrapApp/WebScrapingDesktopApplications.exe";
-                p.StartInfo.FileName = path;
-                p.Start();
-                Thread.Sleep(50000);
+                _webScrapingModelFactory.ScrapFlyNovoAirSite(scarpingFilterViewModel.StartDate, scarpingFilterViewModel.EndDate);
             }
 
             return RedirectToAction("WebScraping");
