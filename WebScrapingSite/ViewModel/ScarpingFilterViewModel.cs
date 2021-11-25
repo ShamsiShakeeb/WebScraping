@@ -19,5 +19,8 @@ namespace WebScrapingSite.ViewModel
 
         [Display(Name = "End Date")]
         public DateTime EndDate { set; get; }
+
+        public static string HtmlTableResponse { set; get; }
+        public string HtmlTable { set; get; }
     }
 }
